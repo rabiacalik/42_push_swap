@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/push_swap.h"
+#include "push_swap.h"
 //yeni bir node olusturuyor.
 t_list	*ft_lstnew(int content)
 {

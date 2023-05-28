@@ -10,8 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/push_swap.h"
-//dizi icinde gonderilen kelimeleri ayirir
+#include "push_swap.h"
+//char dizisi ve bir karakter alır
+//karakteri gördüğü yerlerden diziyi ayırır
 //farkli bir pointere atar.
 static int	count(const char *s, char c)
 {

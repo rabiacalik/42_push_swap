@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../inc/push_swap.h"
+#include "push_swap.h"
 //new elemanini listenin en sonuna ekler.
 t_list	*ft_lstlast(t_list *lst)
 {

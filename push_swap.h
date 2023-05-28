@@ -14,7 +14,11 @@ typedef struct stack_list
     struct stack_list *next;
 }   t_list;
 
+// Libft
+char	**ft_split(const char *s, char c);
+long	ft_atoi(const char *str);
 
 
+void ft_error(char *string);
 
 #endif
