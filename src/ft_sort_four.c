@@ -1,30 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
+/*   ft_sort_four.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rcalik <rcalik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/01 12:02:29 by rcalik            #+#    #+#             */
-/*   Updated: 2023/06/01 12:02:30 by rcalik           ###   ########.fr       */
+/*   Created: 2023/06/01 12:05:00 by rcalik            #+#    #+#             */
+/*   Updated: 2023/06/01 12:05:01 by rcalik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/push_swap.h"
 
-void	ft_lstadd_back(t_list **lst, t_list *new)
+void	ft_sort_four(t_list **stack_a, t_list **stack_b)
 {
-	t_list	*tmp;
+	int	flag;
 
-	if (!lst || !new)
-		return ;
-	if (*lst == NULL)
-		*lst = new;
-	else
-	{
-		tmp = *lst;
-		while (tmp->next)
-			tmp = tmp->next;
-		tmp->next = new;
-	}
+	flag = 0;
+	ft_push_small_a(stack_a, stack_b, flag);
+	ft_sort_three(stack_a);
+	pa(stack_a, stack_b);
 }

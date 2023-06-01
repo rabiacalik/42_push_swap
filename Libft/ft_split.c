@@ -3,17 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yaktas <yaktas@student.42.fr>              +#+  +:+       +#+        */
+/*   By: rcalik <rcalik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/03 20:07:34 by yaktas            #+#    #+#             */
-/*   Updated: 2022/10/18 17:20:49 by yaktas           ###   ########.fr       */
+/*   Created: 2023/06/01 12:03:43 by rcalik            #+#    #+#             */
+/*   Updated: 2023/06/01 12:03:44 by rcalik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
-//char dizisi ve bir karakter alır
-//karakteri gördüğü yerlerden diziyi ayırır
-//farkli bir pointere atar.
+#include "../inc/push_swap.h"
+
 static int	count(const char *s, char c)
 {
 	unsigned int	i;

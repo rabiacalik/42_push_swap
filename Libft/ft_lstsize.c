@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstsize.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yaktas <yaktas@student.42.fr>              +#+  +:+       +#+        */
+/*   By: rcalik <rcalik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/03 20:07:24 by yaktas            #+#    #+#             */
-/*   Updated: 2022/10/18 17:20:16 by yaktas           ###   ########.fr       */
+/*   Created: 2023/06/01 12:03:23 by rcalik            #+#    #+#             */
+/*   Updated: 2023/06/01 12:03:24 by rcalik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
-//listin boyutunu bulur.
+#include "../inc/push_swap.h"
+
 int	ft_lstsize(t_list *lst)
 {
 	unsigned int	size;

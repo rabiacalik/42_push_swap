@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yaktas <yaktas@student.42.fr>              +#+  +:+       +#+        */
+/*   By: rcalik <rcalik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/03 20:07:28 by yaktas            #+#    #+#             */
-/*   Updated: 2022/10/18 15:56:40 by yaktas           ###   ########.fr       */
+/*   Created: 2023/06/01 12:03:30 by rcalik            #+#    #+#             */
+/*   Updated: 2023/06/01 12:03:32 by rcalik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../inc/push_swap.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {

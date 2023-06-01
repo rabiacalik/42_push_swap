@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yaktas <yaktas@student.42.fr>              +#+  +:+       +#+        */
+/*   By: rcalik <rcalik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/03 20:06:48 by yaktas            #+#    #+#             */
-/*   Updated: 2022/10/18 17:19:16 by yaktas           ###   ########.fr       */
+/*   Created: 2023/06/01 12:02:11 by rcalik            #+#    #+#             */
+/*   Updated: 2023/06/01 12:02:16 by rcalik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
-//rakam olup olmadigini kontrol ediyor.
+#include "../inc/push_swap.h"
+
 int	ft_isdigit(int c)
 {
 	if (c <= '9' && c >= '0')

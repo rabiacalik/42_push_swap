@@ -1,30 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
+/*   simple.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rcalik <rcalik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/06/01 12:02:29 by rcalik            #+#    #+#             */
-/*   Updated: 2023/06/01 12:02:30 by rcalik           ###   ########.fr       */
+/*   Created: 2023/06/01 12:06:34 by rcalik            #+#    #+#             */
+/*   Updated: 2023/06/01 12:06:35 by rcalik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../inc/push_swap.h"
 
-void	ft_lstadd_back(t_list **lst, t_list *new)
+void	ft_small_sort(t_list **stack_a, t_list **stack_b)
 {
-	t_list	*tmp;
-
-	if (!lst || !new)
-		return ;
-	if (*lst == NULL)
-		*lst = new;
-	else
+	(void)stack_b;
+	if (ft_lstsize(*stack_a) == 2)
 	{
-		tmp = *lst;
-		while (tmp->next)
-			tmp = tmp->next;
-		tmp->next = new;
+		if ((*stack_a)->content > (*stack_a)->next->content)
+			sa(stack_a);
 	}
+	else if (ft_lstsize(*stack_a) == 3)
+		ft_sort_three(stack_a);
+	else if (ft_lstsize(*stack_a) == 4)
+		ft_sort_four(stack_a, stack_b);
+	else if (ft_lstsize(*stack_a) == 5)
+		ft_sort_five(stack_a, stack_b);
 }

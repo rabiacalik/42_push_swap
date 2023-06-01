@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yaktas <yaktas@student.42.fr>              +#+  +:+       +#+        */
+/*   By: rcalik <rcalik@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/03 20:06:40 by yaktas            #+#    #+#             */
-/*   Updated: 2022/10/18 17:19:02 by yaktas           ###   ########.fr       */
+/*   Created: 2023/06/01 12:01:52 by rcalik            #+#    #+#             */
+/*   Updated: 2023/06/01 12:02:02 by rcalik           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
-//char olarak girilen diziyi inte cevirir.
+#include "../inc/push_swap.h"
+
 long	ft_atoi(const char *str)
 {
 	long	i;
